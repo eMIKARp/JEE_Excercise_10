@@ -51,18 +51,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <title>Library viewer</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <h1>Library viewer</h1>\n");
-      out.write("        <form action=\"BookServlet\" method=\"post\">\n");
-      out.write("            <input type=\"text\" placeholder=\"ISBN\" name=\"isbn\"><br>\n");
-      out.write("            <input type=\"text\" placeholder=\"Tytuł\" name=\"title\"><br>\n");
-      out.write("            <input type=\"text\" placeholder=\"Opis\" name=\"description\"><br>\n");
-      out.write("            Szukaj<input type=\"radio\" name=\"option\" value=\"search\"> \n");
-      out.write("            Dodaj <input type=\"radio\" name=\"option\" value=\"add\">\n");
-      out.write("            Edytuj <input type=\"radio\" name=\"option\" value=\"update\">\n");
-      out.write("            Usuń <input type=\"radio\" name=\"option\" value=\"delete\">\n");
-      out.write("            <br>\n");
-      out.write("            <input type=\"submit\" value=\"Wyślij\">\n");
-      out.write("        </form>\n");
+      out.write("        <h1>Wybierz rodzaj aktywności:</h1>\n");
+      out.write("        <br>\n");
+      out.write("        <br>\n");
+      out.write("        <a href=\"libraryviewer.jsp\">Library viewer</a><br\n");
+      out.write("        <a href=\"usermanager.jsp\">User manager</a><br>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

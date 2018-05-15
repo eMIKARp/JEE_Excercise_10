@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 2018-05-15, 10:43:50
+    Document   : index2
+    Created on : 2018-05-15, 16:40:02
     Author     : emikarp
 --%>
 
@@ -12,17 +12,9 @@
         <title>Library viewer</title>
     </head>
     <body>
-        <h1>Library viewer</h1>
-        <form action="BookServlet" method="post">
-            <input type="text" placeholder="ISBN" name="isbn"><br>
-            <input type="text" placeholder="Tytuł" name="title"><br>
-            <input type="text" placeholder="Opis" name="description"><br>
-            Szukaj<input type="radio" name="option" value="search"> 
-            Dodaj <input type="radio" name="option" value="add">
-            Edytuj <input type="radio" name="option" value="update">
-            Usuń <input type="radio" name="option" value="delete">
-            <br>
-            <input type="submit" value="Wyślij">
-        </form>
+        <h1>Wybierz rodzaj aktywności:</h1>
+        <br>
+        <a href="libraryviewer.jsp">Library viewer</a> <br>
+        <a href="usermanager.jsp">User manager</a>
     </body>
 </html>
