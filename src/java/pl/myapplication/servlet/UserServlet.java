@@ -48,7 +48,7 @@ public class UserServlet extends HttpServlet {
             result = dao.update(user);
             operation = "update";
         } else if ("search".equals(option)){
-            user = dao.read(user.getPesel());
+            user = dao.read(pesel);
             result = user != null;
             operation = "search";
         } else if ("delete".equals(option)){
