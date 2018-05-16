@@ -53,9 +53,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <body>\n");
       out.write("        <h1>Wybierz rodzaj aktywności:</h1>\n");
       out.write("        <br>\n");
-      out.write("        <br>\n");
-      out.write("        <a href=\"libraryviewer.jsp\">Library viewer</a><br\n");
-      out.write("        <a href=\"usermanager.jsp\">User manager</a><br>\n");
+      out.write("        <a href=\"libraryviewer.jsp\">Library viewer</a> <br>\n");
+      out.write("        <a href=\"usermanager.jsp\">User manager</a>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Welcome to User Manager</h1>
-        <form action="UserServler" method="post">
+        <form action="UserServlet" method="post">
             <input type="text" placeholder="Pesel" name="pesel"><br>
             <input type="text" placeholder="First Name" name="firstname"><br>
             <input type="text" placeholder="Last Name" name="lastname"><br>
